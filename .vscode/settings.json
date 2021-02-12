@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "venvs\\Scripts\\python.exe",
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.append('venvs\\Scripts\\python.exe')"
+        ]
+}
